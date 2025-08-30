@@ -5,7 +5,7 @@ They are mostly inline elements and focus on how content looks (bold, italic, un
 
 👉 Examples of formatting tags:
 
-<b> – bold text
+#<b> – bold text
 
 <i> – italic text
 
