@@ -1,5 +1,4 @@
 def findSecondLargest(arr):
-    
     if len(arr) < 2:  #base condition
         return arr[0]
         
@@ -11,7 +10,6 @@ def findSecondLargest(arr):
             
     first_largest = arr[0]
     second_largest = arr[0]
-    
     for val in arr:
         if val > first_largest:
             second_largest = first_largest
@@ -21,8 +19,11 @@ def findSecondLargest(arr):
     
     return second_largest
 
+
+
 arr1 = [-10,-10,-13,-2,-2,-9]
 arr2 = [10, 10, 13, 2, 3, 9]
+
 res = findSecondLargest(arr1)
 print("second largest in negative values" , res)
 
