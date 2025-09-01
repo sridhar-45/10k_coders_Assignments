@@ -1,5 +1,5 @@
 def solve(name):
-    if name[-1] in "ia":
+    if name[-1] in "ia": #check last char is "i" or "a" 
         return (name, "female")
         
     return (name, "male")    
